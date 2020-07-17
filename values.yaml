@@ -99,6 +99,9 @@ global:
   tls:
     enabled: false
 
+    # Provide number of days the client and server certificate is valid for from now on.
+    certValidDays: 730
+
     # enableAutoEncrypt turns on the auto-encrypt feature on
     # clients and servers.
     # It also switches consul-k8s components to retrieve the CA
